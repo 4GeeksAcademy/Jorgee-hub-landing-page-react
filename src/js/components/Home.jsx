@@ -7,8 +7,10 @@ const Home = () => {
 	return (
 		<>
 			<Navbar />
-			<Hero />
-			<CardSection />
+			<div className="container">
+				<Hero />
+				<CardSection />
+			</div>
 			<Footer />
 		</>
 	)
