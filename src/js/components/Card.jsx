@@ -1,8 +1,8 @@
 import React from "react";
 const Card = () => {
     return (
-        <div className="card m-2 p-0" style={{ width: "18rem" }}>
-            <img src="https://picsum.photos/200" className="card-img-top" alt="..." />
+        <div className="card my-4 p-0">
+            <img src="https://picsum.photos/500/325" className="card-img-top" alt="..." />
             <div className="card-body text-center">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, commodi!</p>

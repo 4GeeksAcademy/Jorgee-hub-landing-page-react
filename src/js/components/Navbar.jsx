@@ -1,9 +1,10 @@
 import React from "react";
+
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-            <div className="container-fluid bg-secondary m-0 p-0">
-                <a className="navbar-brand text-light" href="#">Start Boostrap</a>
+        <nav className="navbar navbar-expand-lg bg-secondary">
+            <div className="container">
+                <a className="navbar-brand text-light" href="#">Start Bootstrap</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -13,18 +14,19 @@ const Navbar = () => {
                             <a className="nav-link active text-light" aria-current="page" href="#">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-body-tertiary" href="#">About</a>
+                            <a className="nav-link text-secondary-emphasis" href="#">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-body-tertiary" href="#">Services</a>
+                            <a className="nav-link text-secondary-emphasis" href="#">Services</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-body-tertiary" href="#">Contact</a>
+                            <a className="nav-link text-secondary-emphasis" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav >
-    )
-}
+        </nav>
+    );
+};
+
 export default Navbar;
